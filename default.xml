@@ -712,6 +712,9 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+  <project path="vendor/bksnake" remote="bksnake" name="gl-android-training-2019" dest="vendor" revision="android-led-hal" groups="device,hikey,pdk-fs,training" />
+  <project path="vendor/bksnake/apps" remote="bksnake" name="gl-android-training-2019" dest="vendor" revision="android-app" groups="device,hikey,pdk-fs,training" />
+  <project path="vendor/bksnake/services" remote="bksnake" name="gl-android-training-2019" dest="vendor" revision="android-service" groups="device,hikey,pdk-fs,training" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
